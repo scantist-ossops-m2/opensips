@@ -158,7 +158,6 @@ int lookup(struct sip_msg* _m, char* _t, char* _f, char* _s)
 				ret = -3;
 				goto done;
 			}
-			it=it->next;
 		}
 
 		set_ruri_q(ptr->q);
